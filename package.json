@@ -1,0 +1,48 @@
+{
+  "name": "yarnapp",
+  "version": "1.0.0",
+  "description": "A gui for connecting to yarn.social pods.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "./scripts/watch.js & servatron --spa -d dist",
+    "watch": "./scripts/watch.js",
+    "build": "./scripts/build.js",
+    "test": "c8 node --experimental-loader ./tests/helpers/hook.js tests/index.jsx"
+  },
+  "keywords": [
+    "spa"
+  ],
+  "author": "Mark Wylde <me@markwylde.com> (https://github.com/markwylde)",
+  "license": "MIT",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "chokidar": "^3.5.3",
+    "debounce": "^1.2.1",
+    "esbuild": "^0.15.7",
+    "glob": "^8.0.3",
+    "jsdom": "^20.0.1",
+    "just-tap": "^1.5.0",
+    "linkedom": "^0.14.12",
+    "puppeteer": "^19.2.0",
+    "semistandard": "^16.0.1",
+    "servatron": "^2.3.2",
+    "src": "file:./src",
+    "tests": "file:./tests"
+  },
+  "dependencies": {
+    "mithril": "^2.2.2",
+    "routemeup": "^3.0.0"
+  },
+  "directories": {
+    "dist": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/yarnapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markwylde/yarnapp/issues"
+  },
+  "homepage": "https://github.com/markwylde/yarnapp#readme"
+}
