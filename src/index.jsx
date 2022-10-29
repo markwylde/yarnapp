@@ -7,13 +7,13 @@ import context from 'src/context.js';
 const guestPages = {
   '/#/login': () => HomePage,
   '/#/register': () => HomePage,
-  '/#/': () => '/#/login'
+  '/#/': () => '#/login'
 };
 
 const authedPages = {
-  '/#/login': () => '/#/',
-  '/#/register': () => '/#/',
-  '/#/': () => '/#/accounts',
+  '/#/login': () => '#/',
+  '/#/register': () => '#/',
+  '/#/': () => '#/accounts',
   '/#/test': () => HomePage,
 };
 
