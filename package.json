@@ -24,7 +24,7 @@
     "jsdom": "^20.0.1",
     "just-tap": "^1.5.0",
     "linkedom": "^0.14.12",
-    "puppeteer": "^19.2.0",
+    "puppeteer": "^19.11.1",
     "semistandard": "^16.0.1",
     "servatron": "^2.3.2",
     "src": "file:./src",
