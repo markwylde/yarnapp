@@ -14,7 +14,7 @@ const authedPages = {
   '/#/login': () => '#/',
   '/#/register': () => '#/',
   '/#/': () => '#/accounts',
-  '/#/test': () => HomePage,
+  '/#/test': () => HomePage
 };
 
 const navigate = () => {

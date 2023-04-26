@@ -23,7 +23,7 @@ export async function render (Component) {
 
   return {
     findByText: findByText,
-    container: container,
+    container: container
   };
 }
 
