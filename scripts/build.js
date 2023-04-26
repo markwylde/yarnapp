@@ -3,7 +3,7 @@
 import esbuild from 'esbuild';
 import fs from 'fs';
 import path from 'path';
-import glob from 'glob';
+import { glob } from 'glob';
 
 const copyFile = async (filePath) => {
   const destPath = path.resolve('dist', filePath.slice(6));
